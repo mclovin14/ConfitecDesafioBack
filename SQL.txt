@@ -1,0 +1,40 @@
+Create Database Confitec;
+
+--------
+
+Use Confitec;
+
+--------
+
+Create Table Education(
+	Id Integer Not Null Identity,
+	Description Varchar(20) Not Null,
+	InsertAt Datetime,
+	UpdateAt DateTime,
+
+	Constraint Pk_Education Primary Key(Id)
+)
+
+--------
+
+Create Table Users (
+	Id Integer Not Null Identity,
+	Name Varchar(100) Not Null,
+	Surname Varchar(100) Not Null,
+	Email Varchar(100) Not Null,
+	BirthDate DateTime Not Null,
+	EducationId Integer Not Null,
+	InsertAt Date Not Null,
+	UpdateAt Date Not Null,
+
+	Constraint Pk_User Primary Key(Id),
+	Constraint Fk_Education Foreign Key (EducationId) References Education(Id)
+)
+
+---------
+Select * From Education;
+
+Insert Into Education (Description)values('Infantil');
+Insert Into Education (Description)values('Fundamental');
+Insert Into Education (Description)values('Médio');
+Insert Into Education (Description)values('Superior');
