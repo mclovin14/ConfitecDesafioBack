@@ -1,0 +1,112 @@
+{
+  "notifications": [
+    {
+      "key": "UserNotFound",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Usuário não encontrado!"
+        }
+      ]
+    },
+    {
+      "key": "InsertSuccess",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Usuário inserido com sucesso!"
+        }
+      ]
+    },
+    {
+      "key": "UpdateSuccess",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Usuário alterado com sucesso!"
+        }
+      ]
+    },
+    {
+      "key": "DeleteSuccess",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Usuário deletado com sucesso!"
+        }
+      ]
+    },
+    {
+      "key": "InsertFail",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Falha ao inserir usuário!"
+        }
+      ]
+    },
+    {
+      "key": "UpdateFail",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Falha ao alterar usuário!"
+        }
+      ]
+    },
+    {
+      "key": "DeleteFail",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Falha ao deletar usuário!"
+        }
+      ]
+    },
+    {
+      "key": "BirthDateValidate",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Não é possível inserir uma data de nascimento futura!"
+        }
+      ]
+    },
+    {
+      "key": "RegisterBaseValidate",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Nenhum registro na base de dados!"
+        }
+      ]
+    },
+    {
+      "key": "EmailValidate",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Email inválido!"
+        }
+      ]
+    },
+    {
+      "key": "FieldsFormValidate",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Existem campos obrigatórios não preenchidos!"
+        }
+      ]
+    },
+    {
+      "key": "FieldsLengthFormValidate",
+      "values": [
+        {
+          "culture": "pt-BR",
+          "value": "Maximo de caracteres execido. Máx 100 Caracteres."
+        }
+      ]
+    }
+  ]
+}
